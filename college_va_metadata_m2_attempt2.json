@@ -1,0 +1,48 @@
+{
+  "specification": {
+    "method": "Stratified matching + parametric control",
+    "outcome_variable": "englishmarks_12",
+    "weights": {
+      "marks": 15.0,
+      "stream": 5.0,
+      "preferences": 1.0,
+      "demographics": 0.3
+    },
+    "neighborhood_size": 100,
+    "stratification": "exact_stream_match",
+    "parametric_control": "marks_diff"
+  },
+  "sample": {
+    "n_students": 6348,
+    "n_comparisons": 581745,
+    "n_college_streams": 193
+  },
+  "model_fit": {
+    "r_squared": 0.21461580300924765,
+    "adj_r_squared": 0.21436056084300525,
+    "n_obs": 581745,
+    "marks_diff_coef": 0.3046481169019381,
+    "marks_diff_tstat": 12.275336354314948,
+    "marks_diff_pval": 1.2288007332135043e-34
+  },
+  "balance_diagnostics": {
+    "mean_marks_diff": -0.050870656387248706,
+    "std_marks_diff": 3.8937432763442517,
+    "pct_within_1.0": 29.907089876148486,
+    "pct_within_2.5": 64.292946222142,
+    "pct_within_5.0": 86.585015771515,
+    "pct_within_7.5": 94.0212636120637,
+    "pct_within_10.0": 97.00470137259452
+  },
+  "value_added_summary": {
+    "mean": -3.7584264410057115,
+    "std": 8.014028028120658,
+    "min": -29.078294416502942,
+    "max": 14.834050539276312,
+    "mean_abs": 6.69060150754461,
+    "n_sig_positive": 50,
+    "n_sig_negative": 104
+  },
+  "baseline_college_stream": "501502_bpc_bpc",
+  "timestamp": "2025-12-29 13:10:46"
+}

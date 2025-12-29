@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "date": "2025-12-29 12:14:26",
+  "specification": {
+    "weights": {
+      "W_MARKS": 5.0,
+      "W_PREFS": 2.0,
+      "W_STREAM": 1.0,
+      "W_DEMO": 0.5
+    },
+    "neighborhood_size": 50,
+    "preference_decay": 0.8,
+    "similarity_metric": "cosine",
+    "outcome_variable": "englishmarks_12"
+  },
+  "sample": {
+    "n_students": 6414,
+    "n_comparisons": 265342,
+    "n_colleges": 193
+  },
+  "model_fit": {
+    "r_squared": 0.14496699016270365,
+    "n_obs": 265342
+  },
+  "balance_diagnostics": {
+    "mean_marks_diff": -0.8901512010914217,
+    "std_marks_diff": 9.815418350734022,
+    "pct_within_2.5": 23.91668111343097,
+    "pct_within_5.0": 47.424455985106015
+  },
+  "value_added_summary": {
+    "mean_abs_va": 11.19817402897113,
+    "min_va": -34.227312222858274,
+    "max_va": 3.995790633323197,
+    "n_sig_positive": 1,
+    "n_sig_negative": 176
+  }
+}
