@@ -7,8 +7,8 @@ STREAM: BPC
 Dep. Variable:                gtot_dm   R-squared (uncentered):                   0.021
 Model:                            OLS   Adj. R-squared (uncentered):              0.013
 Method:                 Least Squares   F-statistic:                              4.929
-Date:                Tue, 06 Jan 2026   Prob (F-statistic):                    9.38e-39
-Time:                        18:26:20   Log-Likelihood:                         -59675.
+Date:                Sat, 20 Dec 2025   Prob (F-statistic):                    9.38e-39
+Time:                        23:41:43   Log-Likelihood:                         -59675.
 No. Observations:                9989   AIC:                                  1.195e+05
 Df Residuals:                    9911   BIC:                                  1.201e+05
 Df Model:                          78                                                  
@@ -114,8 +114,8 @@ STREAM: MPC
 Dep. Variable:                gtot_dm   R-squared (uncentered):                   0.039
 Model:                            OLS   Adj. R-squared (uncentered):              0.029
 Method:                 Least Squares   F-statistic:                              4.786
-Date:                Tue, 06 Jan 2026   Prob (F-statistic):                    1.74e-36
-Time:                        18:26:20   Log-Likelihood:                         -46780.
+Date:                Sat, 20 Dec 2025   Prob (F-statistic):                    1.74e-36
+Time:                        23:41:44   Log-Likelihood:                         -46780.
 No. Observations:                8060   AIC:                                  9.371e+04
 Df Residuals:                    7983   BIC:                                  9.425e+04
 Df Model:                          77                                                  
@@ -220,8 +220,8 @@ STREAM: CEC
 Dep. Variable:                gtot_dm   R-squared (uncentered):                   0.017
 Model:                            OLS   Adj. R-squared (uncentered):              0.008
 Method:                 Least Squares   F-statistic:                              4.014
-Date:                Tue, 06 Jan 2026   Prob (F-statistic):                    2.23e-08
-Time:                        18:26:20   Log-Likelihood:                         -12761.
+Date:                Sat, 20 Dec 2025   Prob (F-statistic):                    2.23e-08
+Time:                        23:41:44   Log-Likelihood:                         -12761.
 No. Observations:                2101   AIC:                                  2.556e+04
 Df Residuals:                    2082   BIC:                                  2.567e+04
 Df Model:                          19                                                  
@@ -268,8 +268,8 @@ STREAM: MEC
 Dep. Variable:                gtot_dm   R-squared (uncentered):                   0.020
 Model:                            OLS   Adj. R-squared (uncentered):              0.013
 Method:                 Least Squares   F-statistic:                              4.224
-Date:                Tue, 06 Jan 2026   Prob (F-statistic):                    4.36e-06
-Time:                        18:26:20   Log-Likelihood:                         -9123.4
+Date:                Sat, 20 Dec 2025   Prob (F-statistic):                    4.36e-06
+Time:                        23:41:44   Log-Likelihood:                         -9123.4
 No. Observations:                1599   AIC:                                  1.827e+04
 Df Residuals:                    1588   BIC:                                  1.833e+04
 Df Model:                          11                                                  
